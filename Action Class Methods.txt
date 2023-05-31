@@ -1,0 +1,34 @@
+1. To perform Drag and Scroll Methods and Clicking Action.
+		1.Create the Object of Select Class
+		  Action a = new Action();
+		
+		2.WebDriver Reference is passed as an Argument for the Select Constructor.
+		  Action a =new Action(driver);
+		3.With reference variable call non-static methods
+				a.Click();
+		4.Call a perform(); // Methode
+		
+
+*Action Class Methods*
+
+ 1. Click()*
+ 2. Click(WebElementtarget)*
+ 3. Context Click()*
+ 4. Cntext Click(WebElement target)*
+ 5. Double Click()*
+ 6. Double Click(WebElement target)*
+ 7. Click & Hold()*
+ 8. Click & Hold(WebElement target)*
+ 9. Release()*
+ 10. Release(WebElement target)*
+ 11. MovetoElement(WebElement target)*
+ 12. MovetoElement(WebElementtarget,int Xoffset,Yoffset)*
+ 13. MoveByOffset(int Xoffset,int Yoffset)*
+ 14. Key up()*
+ 15. Key Down()*
+ 16. SendKeys(Char Sequence)*
+ 17. SendKeys(WebElementtarget,CharSequence)*
+ 18. Drag & drop()*
+ 19. Drag & dropBy()*
+ 20. perform()*
+ 21. build()*
